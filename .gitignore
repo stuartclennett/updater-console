@@ -1,0 +1,76 @@
+*.~*
+*.exe
+*.dcu
+*.dcp
+*.map
+Thumbs.db
+*.drc
+*.tvsconfig
+.DS_Store
+*.o
+*.os
+*.local
+*.cbk
+*.dxbackup
+*.stat
+*.identcache
+*.res
+*.dll
+*.old
+*.dic
+*.aff
+*.fbl?
+web.config
+*.zip
+/database/Config Data Files/v38
+/database/Config Data Files/v39
+/deployment/FinalBuilder/*.log
+/deployment/MDSAS
+/deployment/FilesCommon
+/deployment/aquilacrs_standalone
+/deployment/aquilacrs_standalone64
+/database/*.xml
+/Project/bin
+/deployment/FinalBuilder/Aquila_Logs
+/Project/cgi-bin
+/Project/Aquila-Client/__recovery
+*.rsb
+*.serverlog
+/database/Aquila DDL/*.XML
+/database/Aquila DDL/v38.19 SQL/UpdateDatabase Results from SQLite.xml
+/Project/Aquila-Client/aquilacrsManifest.xml
+/Project/Aquila-Server/AquilaServerManifest.xml
+/Project/Aquila-Server/aquilawebManifest.xml
+*.fbpInf
+/Project/Aquila-Server/__recovery
+*.fb?lck
+*.dsk
+/Images/Normal_16x16.png
+/Images/Normal_32x32.png
+/Images/Rating/clipart-5-star-rating-system-c46f.png
+/uSchemaIBIDABizRules.html
+/classIBIDFormula.html
+/Project/Aquila-Client/*.skincfg
+/Fragment_iBIDSvc_Impl.html
+/deployment/output/Files_CRC32.ini
+/License Key Samples.txt
+/Project/Aquila-Client/Burn_Injury_Fields.txt
+/Project/Aquila-Client/aqreplcons.mes
+/Project/Aquila-Client/aquilacrs_postbuildevent.old.mes
+/Project/Aquila-Server/Schema_ibid.daConnections
+/Project/Aquila-Server/Schema_ibid.daDictionary
+/deployment/F_Ping.txt
+/deployment/VirtualUI/aquilacrs/app.html
+/deployment/~Remote Config Files/public_html/__aquila/1/F_AliasDict.txt
+/deployment/~Remote Config Files/public_html/__aquila/1/F_Codes.json
+/deployment/~Remote Config Files/public_html/__aquila/1/F_FieldRecTypes.json
+/deployment/~Remote Config Files/public_html/__aquila/1/F_Importance.txt
+/deployment/~Remote Config Files/public_html/__aquila/1/F_Rules2.json
+/deployment/~Remote Config Files/public_html/__aquila/1/F_Scripts.json
+/deployment/~Remote Config Files/public_html/__aquila/2/F_Ping.txt
+/deployment/~Remote Config Files/public_html/__aquila/2
+/Project/Aquila-Server/Schema_Reporting_V2.9_Before_Cleanup.daSchema
+/deployment/output/aquila-info.ini
+/Project/Aquila-Server/Reporting_Schema.xml
+*.vlb
+/deployment/Uninstallers/uninst-6.0.3 (u)-d72de74892.e32
