@@ -10,10 +10,10 @@ Takes following command line params:
 
 3: Flags
 
-#Flags
+# Flags
 
--s = Target is a windows service (service will be stopped and restarted.  Requires admin privileges)
+ -s = Target is a windows service (service will be stopped and restarted.  Requires admin privileges)
 
--n = do not restart (just replace the file)
+ -n = do not restart (just replace the file)
 
 
