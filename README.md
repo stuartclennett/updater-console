@@ -15,5 +15,7 @@ Takes following command line params:
  -s = Target is a windows service (service will be stopped and restarted.  Requires admin privileges)
 
  -n = do not restart (just replace the file)
+ 
+ -sn:{name} = The Service Name to restart 
 
 
