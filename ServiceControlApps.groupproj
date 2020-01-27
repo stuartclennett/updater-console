@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F9DE8888-8007-4C6A-A50A-758E70A914E3}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="phoenix.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DummyProject.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="phoenix">
+        <MSBuild Projects="phoenix.dproj"/>
+    </Target>
+    <Target Name="phoenix:Clean">
+        <MSBuild Projects="phoenix.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="phoenix:Make">
+        <MSBuild Projects="phoenix.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DummyProject">
+        <MSBuild Projects="DummyProject.dproj"/>
+    </Target>
+    <Target Name="DummyProject:Clean">
+        <MSBuild Projects="DummyProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DummyProject:Make">
+        <MSBuild Projects="DummyProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="phoenix;DummyProject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="phoenix:Clean;DummyProject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="phoenix:Make;DummyProject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
