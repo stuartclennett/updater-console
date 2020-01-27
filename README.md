@@ -8,7 +8,11 @@ Takes following command line params:
 
 2: Filename of the new executable
 
-3: Flags
+3: Flags (see below)
+
+Pass in the same filename for both running instance and new executable and the app will just be restarted (flags permitting)
+
+
 
 # Flags
 
