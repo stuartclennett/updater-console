@@ -10,7 +10,7 @@ Takes following command line params:
 
 3: Flags (see below)
 
-Pass in the same filename for both running instance and new executable and the app will just be restarted (flags permitting)
+Pass in the same filename for both running instance and new executable and the app will just be restarted (flags permitting) without renaming any files.
 
 
 
