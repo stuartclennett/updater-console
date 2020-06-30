@@ -74,3 +74,4 @@ web.config
 /Project/Aquila-Server/Reporting_Schema.xml
 *.vlb
 /deployment/Uninstallers/uninst-6.0.3 (u)-d72de74892.e32
+/phoenix.skincfg
